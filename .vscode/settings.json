@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": ".env\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true,
+    "files.exclude": {
+        "**/.env": true
+    }
+}
