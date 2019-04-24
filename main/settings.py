@@ -128,17 +128,21 @@ INSTALLED_APPS = [
     'sekizai',
     'treebeard',
     'djangocms_text_ckeditor',
-    'filer',
-    'easy_thumbnails',
+    
     'djangocms_column',
     'djangocms_file',
     'djangocms_link',
     'djangocms_picture',
-    'djangocms_style',
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'main'
+    'main',
+
+    'aldryn_style',
+    'easy_thumbnails',
+    'mptt',
+    'filer',
+    'aldryn_bootstrap3',
 ]
 
 LANGUAGES = (
@@ -167,6 +171,7 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
+    ('home.html', 'Home'),
 )
 
 CMS_PERMISSION = True
